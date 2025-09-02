@@ -11,3 +11,7 @@ test('cuando el número es 3 devuelve "Fizz"', () => {
 test('cuando el número es 5 devuelve "Buzz"', () => {
   expect(valueFor(5)).toBe("Buzz");
 });
+
+test('cuando el número es 15 devuelve "FizzBuzz"', () => {
+  expect(valueFor(15)).toBe("FizzBuzz");
+});

@@ -38,12 +38,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "159ce2ab006e0d64f40640ca1eba6c9ed66f233f",
     "author": "Mauricio",
     "commit": {
       "date": "2025-09-02T18:23:06.000Z",
       "message": "ciclo 3 devuelve buzz",
-      "url": "https://github.com/UCB-TallerDeDesarrollo/TDDLabBaseProject/commit/HEAD"
+      "url": "https://github.com/UCB-TallerDeDesarrollo/TDDLabBaseProject/commit/159ce2ab006e0d64f40640ca1eba6c9ed66f233f"
     },
     "stats": {
       "total": 7,
@@ -53,6 +53,25 @@
     },
     "coverage": 100,
     "test_count": 4,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mauricio",
+    "commit": {
+      "date": "2025-09-02T18:25:49.000Z",
+      "message": "ciclo 4 devuelve fizzbuzz",
+      "url": "https://github.com/UCB-TallerDeDesarrollo/TDDLabBaseProject/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 7,
+      "deletions": 2,
+      "date": "2025-09-02"
+    },
+    "coverage": 100,
+    "test_count": 5,
     "failed_tests": 0,
     "conclusion": "success"
   }
