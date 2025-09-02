@@ -76,17 +76,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ed723cb697766b879b187b19adba9b663bf0e596",
     "author": "Mauricio",
     "commit": {
       "date": "2025-09-02T18:27:14.000Z",
       "message": "ciclo 5 genera l;a secuencia completa",
-      "url": "https://github.com/UCB-TallerDeDesarrollo/TDDLabBaseProject/commit/HEAD"
+      "url": "https://github.com/UCB-TallerDeDesarrollo/TDDLabBaseProject/commit/ed723cb697766b879b187b19adba9b663bf0e596"
     },
     "stats": {
       "total": 17,
       "additions": 16,
       "deletions": 1,
+      "date": "2025-09-02"
+    },
+    "coverage": 100,
+    "test_count": 6,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mauricio",
+    "commit": {
+      "date": "2025-09-02T18:35:51.000Z",
+      "message": "agregar interfaz de html",
+      "url": "https://github.com/FullMaury/fizzbuzz-ingsoft/commit/HEAD"
+    },
+    "stats": {
+      "total": 35,
+      "additions": 35,
+      "deletions": 0,
       "date": "2025-09-02"
     },
     "coverage": 100,

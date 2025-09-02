@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <title>FizzBuzz</title>
+</head>
+<body>
+  <h1>FizzBuzz</h1>
+  <label>Ingresa un número: <input id="num" type="number" /></label>
+  <button id="btn">Generar</button>
+  <pre id="out"></pre>
+
+  <script>
+    function valueFor(n) {
+      if (n % 15 === 0) return "FizzBuzz";
+      if (n % 3 === 0) return "Fizz";
+      if (n % 5 === 0) return "Buzz";
+      return String(n);
+    }
+    function sequenceUpTo(n) {
+      const result = [];
+      for (let i = 1; i <= n; i++) result.push(valueFor(i));
+      return result;
+    }
+    document.getElementById("btn").addEventListener("click", () => {
+      const n = parseInt(document.getElementById("num").value, 10);
+      if (!Number.isInteger(n) || n < 1) {
+        document.getElementById("out").textContent = "Por favor, ingresa un entero positivo.";
+        return;
+      }
+      document.getElementById("out").textContent = sequenceUpTo(n).join(", ");
+    });
+  </script>
+</body>
+</html>
