@@ -1,11 +1,11 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "7a5e5d45978ad2839bbc21a244d5080740b68f39",
     "author": "Mauricio",
     "commit": {
       "date": "2025-09-02T18:17:28.000Z",
       "message": "ciclo 1 para hacerlo verde",
-      "url": "https://github.com/UCB-TallerDeDesarrollo/TDDLabBaseProject/commit/HEAD"
+      "url": "https://github.com/UCB-TallerDeDesarrollo/TDDLabBaseProject/commit/7a5e5d45978ad2839bbc21a244d5080740b68f39"
     },
     "stats": {
       "total": 10,
@@ -15,6 +15,25 @@
     },
     "coverage": 100,
     "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mauricio",
+    "commit": {
+      "date": "2025-09-02T18:20:07.000Z",
+      "message": "segundo ciclo devuelve fizz",
+      "url": "https://github.com/UCB-TallerDeDesarrollo/TDDLabBaseProject/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 7,
+      "deletions": 2,
+      "date": "2025-09-02"
+    },
+    "coverage": 100,
+    "test_count": 3,
     "failed_tests": 0,
     "conclusion": "success"
   }
