@@ -7,3 +7,7 @@ test('cuando el número es 1 devuelve "1"', () => {
 test('cuando el número es 3 devuelve "Fizz"', () => {
   expect(valueFor(3)).toBe("Fizz");
 });
+
+test('cuando el número es 5 devuelve "Buzz"', () => {
+  expect(valueFor(5)).toBe("Buzz");
+});
