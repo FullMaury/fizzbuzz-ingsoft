@@ -15,3 +15,10 @@ test('cuando el número es 5 devuelve "Buzz"', () => {
 test('cuando el número es 15 devuelve "FizzBuzz"', () => {
   expect(valueFor(15)).toBe("FizzBuzz");
 });
+
+test('la secuencia hasta 10 coincide con el ejemplo', () => {
+  const { sequenceUpTo } = require('../src/fizzbuzz');
+  expect(sequenceUpTo(10)).toEqual([
+    "1", "2", "Fizz", "4", "Buzz", "Fizz", "7", "8", "Fizz", "Buzz"
+  ]);
+});

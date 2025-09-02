@@ -5,4 +5,12 @@ function valueFor(n) {
   return String(n);
 }
 
-module.exports = { valueFor };
+function sequenceUpTo(n) {
+  const result = [];
+  for (let i = 1; i <= n; i++) {
+    result.push(valueFor(i));
+  }
+  return result;
+}
+
+module.exports = { valueFor, sequenceUpTo };
