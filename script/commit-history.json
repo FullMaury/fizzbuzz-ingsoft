@@ -95,18 +95,37 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "f23a023be5cd2b755c12efec9b6acb6a3a82888d",
     "author": "Mauricio",
     "commit": {
       "date": "2025-09-02T18:35:51.000Z",
       "message": "agregar interfaz de html",
-      "url": "https://github.com/FullMaury/fizzbuzz-ingsoft/commit/HEAD"
+      "url": "https://github.com/FullMaury/fizzbuzz-ingsoft/commit/f23a023be5cd2b755c12efec9b6acb6a3a82888d"
     },
     "stats": {
       "total": 35,
       "additions": 35,
       "deletions": 0,
       "date": "2025-09-02"
+    },
+    "coverage": 100,
+    "test_count": 6,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mauricio",
+    "commit": {
+      "date": "2025-09-04T04:44:27.000Z",
+      "message": "solucion de error en html",
+      "url": "https://github.com/FullMaury/fizzbuzz-ingsoft/commit/HEAD"
+    },
+    "stats": {
+      "total": 2,
+      "additions": 2,
+      "deletions": 0,
+      "date": "2025-09-04"
     },
     "coverage": 100,
     "test_count": 6,
