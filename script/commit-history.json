@@ -133,17 +133,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "92f3e432e4e8186021c924de1f04125a4b75cbe4",
     "author": "Mauricio",
     "commit": {
       "date": "2025-09-04T05:01:04.000Z",
       "message": "renombrar el index a sumador",
-      "url": "https://github.com/FullMaury/fizzbuzz-ingsoft/commit/HEAD"
+      "url": "https://github.com/FullMaury/fizzbuzz-ingsoft/commit/92f3e432e4e8186021c924de1f04125a4b75cbe4"
     },
     "stats": {
       "total": 0,
       "additions": 0,
       "deletions": 0,
+      "date": "2025-09-04"
+    },
+    "coverage": 100,
+    "test_count": 6,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Mauricio",
+    "commit": {
+      "date": "2025-09-04T05:06:02.000Z",
+      "message": "eliminar el sumador",
+      "url": "https://github.com/FullMaury/fizzbuzz-ingsoft/commit/HEAD"
+    },
+    "stats": {
+      "total": 19,
+      "additions": 0,
+      "deletions": 19,
       "date": "2025-09-04"
     },
     "coverage": 100,
